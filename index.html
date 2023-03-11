@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        .bg-complete-primary{
+            background-color:MediumSeaGreen !important;
+            width: 100px !important;
+        }
+        .bg-complete-secondary{
+            background-color:DodgerBlue !important;
+            width: 100px !important;
+        }
+        .bg-none{
+            background-color:transparent !important;
+            width: 100px !important;
+        }
+        .bg-incomplete{
+            background-color:LightGray !important;
+            width: 100px !important;
+        }
+        .width-small{
+            width: 50px !important;
+        }
+        .width-medium{
+            width: 100px !important;
+        }
+        .width-large{
+            width: 200px !important;
+        }
+    </style>
+  </head>
+  <body class="bg-light">
+    <section class="container-fluid mt-5">
+        <div class="table-responsive border border-3 border-dark">
+            <table class="table table-bordered small">
+                <tr class="bg-dark text-white">
+                    <td class="fw-bold text-uppercase col-1 text-center">Task /Work ↓</td>
+                    <td class="fw-bold width-large text-center">SM↓</td>
+                    <td class="fw-bold width-small text-center">CM↓</td>
+                    <td class="fw-bold width-small text-center">TM↓</td>
+                    <td class="fw-bold width-small">TC↓</td>
+                    <td class="fw-bold text-center">1</td>
+                    <td class="fw-bold text-center">2</td>
+                    <td class="fw-bold text-center">3</td>
+                    <td class="fw-bold text-center">4</td>
+                    <td class="fw-bold text-center">5</td>
+                    <td class="fw-bold text-center">6</td>
+                    <td class="fw-bold text-center">7</td>
+                    <td class="fw-bold text-center">8</td>
+                    <td class="fw-bold text-center">9</td>
+                </tr>
+                <tr>
+                   <td class="fw-bold">1</td>
+                   <td class="fw-bold">Pileing</td>
+                   <td>1</td> 
+                   <td>5</td> 
+                   <td>&nbsp;</td>
+                   <td class="bg-complete-primary border-end-0 border-start-0">&nbsp;</td>   
+                   <td class="bg-complete-primary border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-complete-primary border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-complete-primary border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-complete-primary border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-complete-primary border-end-0 border-start-0"><span class="float-end fw-bold text-white">70%</span></td>  
+                   <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                   <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                </tr>
+                <tr>
+                    <td class="fw-bold">2</td>
+                    <td class="fw-bold">Plaster</td>
+                    <td>1</td> 
+                    <td>5</td> 
+                    <td>&nbsp;</td>
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>   
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-complete-secondary border-end-0 border-start-0">&nbsp;</td>
+                    <td class="bg-complete-secondary border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-complete-secondary border-end-0 border-start-0"><span class="float-end fw-bold text-white">60%</span></td>    
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                 </tr>
+                 <tr>
+                    <td>2.1</td>
+                    <td class="ps-4">Plaster (Inside)</td>
+                    <td>1</td> 
+                    <td>5</td> 
+                    <td>&nbsp;</td>
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>   
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-complete-secondary border-end-0 border-start-0">&nbsp;</td> 
+                    <td class="bg-complete-secondary border-end-0 border-start-0"><span class="float-end fw-bold text-white">40%</span></td>    
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>   
+                 </tr>
+                 <tr>
+                    <td>2.2</td>
+                    <td class="ps-4">Plaster (Outside)</td>
+                    <td>1</td> 
+                    <td>5</td> 
+                    <td>&nbsp;</td>
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>   
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-complete-secondary border-end-0 border-start-0"><span class="float-end fw-bold text-white">20%</span></td>    
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-incomplete border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>  
+                    <td class="bg-none border-end-0 border-start-0">&nbsp;</td>   
+                 </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
